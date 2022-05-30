@@ -3,7 +3,7 @@ Getting started with css grid
 
 ## View project
 SImply click on this link to view the project
-https://davidkaggulire.github.io/css grid/
+https://davidkaggulire.github.io/css-grid/
 
 ## Run project
 Install modules by running `npm install`
