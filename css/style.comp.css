@@ -502,14 +502,14 @@ body {
   padding: 8rem;
 }
 
-.navigation {
+.nav {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 2rem;
   align-items: center;
 }
-.navigation__link:link, .navigation__link:visited {
+.nav__link:link, .nav__link:visited {
   font-size: 1.4rem;
   color: #fff;
   text-decoration: none;
@@ -520,11 +520,12 @@ body {
   display: block;
   transition: all 0.2s;
 }
-.navigation__link:hover, .navigation__link:active {
+.nav__link:hover, .nav__link:active {
   background-color: rgba(255, 255, 255, 0.05);
   transform: translateY(-3px);
 }
-.navigation .copyright {
+
+.copyright {
   font-size: 1.4rem;
   color: #aaa;
   margin-top: 6rem;
